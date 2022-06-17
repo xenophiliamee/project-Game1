@@ -1,4 +1,3 @@
-db.list("prefix").then(matches => {});
 var readlineSync = require('readline-sync');
 score = 0;
 var username = readlineSync.question('May I have your Name?\n');
