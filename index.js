@@ -12,12 +12,12 @@ function play(question,answer)
 
   if(userAnswer === answer){
     console.log('right');
-    score++;
+    score+10;
   }
   else
   {
     console.log('wrong');
-    score--;
+    score-5;
   }
   console.log("............");
 }
